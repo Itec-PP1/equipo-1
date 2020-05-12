@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minium-scale=1.0">
+    <!-- Implementacion de bootstrap localmente -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/estilos.css">
@@ -12,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Modak&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap" rel="stylesheet">
     <title>Gatitos Bootstrap</title>
 </head>
 
@@ -28,6 +30,8 @@
     </header>
     <div class="container">
         <section class="main row">
+            <!-- Declarando las col para cada tamanio de pantalla xs es pequemni y asi hasta el lg que 
+            es large, esto hace responsive el sitio web -->
             <article class="col-xs-12 col-sm-8 col-md-5 col-md-9 col-lg-9">
                 <h1 class="titulo">AQUI ENCONTRARAS LOS GATITOS MAS LINDOS</h1>
                 <h2 class="extrabagante">UN RADAR EN EL OSICO!</h2>
@@ -41,13 +45,14 @@
                 </p>
             </article>
             <aside class="col-xs-12 col-sm-4 col-md-3 col-lg-3">
-                <p>
+                <p class="letraContacto">
                     Para comunicarte con nuestros representantes, solo debes llamar a 354654846558 esta
                     sera la forma mas facil de contactarnos, ya que por cuestiones sanitarias no estamos atendiendo
                     de forma publica
                 </p>
             </aside>
         </section>
+        <hr>
         <div class="row">
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <div>
@@ -75,6 +80,14 @@
             </div>
         </div>
     </div>
+    <footer id="sticky-footer" class="py-4 bg-azure text-white-50">
+        <div class="container text-center">
+          <small>Otros medios de contactarnos:
+             <a href="https://www.youtube.com/watch?v=velm5Ua3eKo">contacto@gatitosexpress.com</a>
+
+        </small>
+        </div>
+      </footer>
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
