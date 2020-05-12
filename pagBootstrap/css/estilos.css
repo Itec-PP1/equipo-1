@@ -78,6 +78,12 @@ h1.titulo{
 .padding{
     padding: 10%;
 }
+.letraExtrabagante{
+    font-family: 'Modak', cursive;
+}
+.centro{
+    text-align: center;
+}
 footer div{
     display: flex;
 }
