@@ -30,6 +30,10 @@ img.mediana{
     box-shadow: black;
 }
 
+img.grande{
+    width: 600px; height: 500px;
+}
+
 button.comprar{
     width: 108%;
 }
