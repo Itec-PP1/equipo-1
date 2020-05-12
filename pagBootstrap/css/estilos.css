@@ -10,6 +10,7 @@ img.pequenia{
 
 img.mediana{
     width: 400px; height: 200px;
+    box-shadow: black;
 }
 
 button.comprar{
@@ -19,6 +20,18 @@ button.comprar3{
     width: 115%;
 }
 
+p.texto{
+    font-family: 'Quicksand', sans-serif;
+}
+h3.preguntas{
+    font-family: 'Lobster', cursive;
+}
+h2.extrabagante{
+    font-family: 'Modak', cursive;
+}
+h1.titulo{
+    font-family: 'Sigmar One', cursive;
+}
 .color1{
     background-color: aqua;
 }
