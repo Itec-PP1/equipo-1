@@ -84,39 +84,61 @@
                 <nav class="ink-navigation">
                 </nav>
             </header>
-            <h2>heading</h2>
-            <div class="column-group gutters">
-                <div class="all-33 small-100 tiny-100">
-                    <img src="holder.js/600x480/ink/auto">
-                    <p class="quarter-top-space">"Sit down," Edwin counselled soothingly. "Granser's all right. He's just  gettin' to the Scarlet Death, ain't you, Granser? He's just goin' to  tell us about it right now. Sit down, Hare-Lip. Go ahead, Granser."</p>
-                </div>
-                <div class="all-33 small-100 tiny-100">
-                    <img src="holder.js/600x480/ink/auto">
-                    <p class="quarter-top-space">"Sit down," Edwin counselled soothingly. "Granser's all right. He's just  gettin' to the Scarlet Death, ain't you, Granser? He's just goin' to  tell us about it right now. Sit down, Hare-Lip. Go ahead, Granser."</p>
-                </div>
-                <div class="all-33 small-100 tiny-100">
-                    <img src="holder.js/600x480/ink/auto">
-                    <p class="quarter-top-space">"Sit down," Edwin counselled soothingly. "Granser's all right. He's just  gettin' to the Scarlet Death, ain't you, Granser? He's just goin' to  tell us about it right now. Sit down, Hare-Lip. Go ahead, Granser."</p>
-                </div>
-            </div>
-            <div class="column-group gutters">
-                <div class="xlarge-20 large-20 medium-25 small-50 tiny-100">
-                    <img src="holder.js/960x640/ink/auto">
-                </div>
-                <div class="xlarge-20 large-20 medium-25 small-50 tiny-100">
-                    <img src="holder.js/960x640/ink/auto">
-                </div>
-                <div class="xlarge-20 large-20 medium-25 small-50 tiny-100">
-                    <img src="holder.js/960x640/ink/auto">
-                </div>
-                <div class="xlarge-20 large-20 medium-25 small-50 tiny-100">
-                    <img src="holder.js/960x640/ink/auto">
-                </div>
-                <div class="xlarge-20 large-20 hide-small hide-medium tiny-100">
-                    <img src="holder.js/960x640/ink/auto">
+            <div>
+                <h2>Gatito 1</h2>
+                <div class="column-group gutters">
+                    <div class="all-33 small-100 tiny-100">
+                        <img src="img/gatito1.jpg">
+                        <p class="quarter-top-space">"Sit down," Edwin counselled soothingly. "Granser's all right. He's just  gettin' to the Scarlet Death, ain't you, Granser? He's just goin' to  tell us about it right now. Sit down, Hare-Lip. Go ahead, Granser."</p>
+                    </div>
+                    <div class="all-33 small-100 tiny-100">
+                        <h2>Gatito 2</h2>
+                        <img src="img/gatito2.jpg">
+                        <p class="quarter-top-space">"Sit down," Edwin counselled soothingly. "Granser's all right. He's just  gettin' to the Scarlet Death, ain't you, Granser? He's just goin' to  tell us about it right now. Sit down, Hare-Lip. Go ahead, Granser."</p>
+                    </div>
+                    <div class="all-33 small-100 tiny-100">
+                        <h2>Gatito3</h2>
+                        <img src="img/gatito3.jpg">
+                        <p class="quarter-top-space">"Sit down," Edwin counselled soothingly. "Granser's all right. He's just  gettin' to the Scarlet Death, ain't you, Granser? He's just goin' to  tell us about it right now. Sit down, Hare-Lip. Go ahead, Granser."</p>
+                    </div>
                 </div>
             </div>
         </div>
+        <script>
+            Ink.requireModules(['Ink.UI.Carousel_1'], function(InkCarousel) {
+                new InkCarousel('#car2', {pagination: '#p2'})
+            });
+        </script>
+
+    <div class="medium-100">
+            <div id="car3" class="ink-carousel">
+                <ul class="stage column-group half-gutters unstyled medium-100">
+
+                    <li class="slide xlarge-100 large-100 medium-100 small-100 tiny-100">
+                        <img class="half-bottom-space" src="img/graciosa1.jpg">
+                    </li>
+
+                    <li class="slide xlarge-100 large-100 medium-100 small-100 tiny-100">
+                        <img class="half-bottom-space" src="img/graciosa2.jpeg">
+                    </li>
+
+                    <li class="slide xlarge-100 large-100 medium-100 small-100 tiny-100">
+                        <img class="half-bottom-space" src="img/graciosa3.jpeg">
+                    </li>
+                </ul>
+
+                <nav id="p3" class="ink-navigation" data-previous-label="" data-next-label="">
+                    <ul class="pagination chevron">
+                    </ul>
+                </nav>
+            </div>
+
+            <script>
+                Ink.requireModules(['Ink.UI.Carousel_1'], function(InkCarousel) {
+                    new InkCarousel('#car3', { pagination: '#p3', nextLabel: '', previousLabel: ''});
+                });
+            </script>
+    </div>
         <footer class="clearfix">
             <div class="ink-grid">
                 <ul class="unstyled inline half-vertical-space">
@@ -127,6 +149,7 @@
                 <p class="note">copyright © photoguy</p>
             </div>
         </footer>
+    
     </body>
 
 </html>
