@@ -2,11 +2,105 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Skeleton</title>
+    <!-- CSS adicional -->
+    <link rel="stylesheet" href="css/add.css">
+    <!-- CSS Skeleton -->
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/enlace.css">
+    <!-- Fuentes -->
+    <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Modak&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap" rel="stylesheet">
+    <title>Gatitos Skeleton</title>
 </head>
-<p>Hola Mundo</p>
 <body>
-    <script>
-    </script>
+    <header class = "display">
+        <div class="container">
+            <h1 class="letraHeader">Gatitos Express</h1>
+        </div>
+        <div>
+            <img  src="img/gatitoheader.png" alt="GatitoHeader" class="img-fluid pequenia">
+        </div>
+    </header>
+    <div class = "container">
+        <div class = "row" >
+            <article class = "nine columns" style = "padding: 1%;">
+                <h1 class="titulo">AQUI ENCONTRARAS LOS GATITOS MAS LINDOS</h1>
+                <h2 class="extrabagante">UN RADAR EN EL OSICO!</h2>
+                <h3 class="preguntas">¿Alguna vez se ha parado a pensar para qué usa su gato los bigotes? </h3>
+                <p class="texto">
+                    Si se lo pregunta a su minino lo más seguro es que éste le dedique una mirada altiva y, 
+                    si tiene suerte, podrá observar cómo mueve su precioso morrito para tratar de averiguar 
+                    si usted va a acercarse más a él o incluso intentando captar su olor. Y es que sus bigotes, junto con el resto de pelos sensoriales, conocidos técnicamente como vibrisas, funcionan como potentes antenas que harían palidecer al radar más moderno del mundo. Son pelos rígidos, extremadamente sensibles, que sobre todo proporcionan información táctil al gato aunque tienen otras muchas funciones.
+                    Están presentes en los labios superiores (bigotes), sobre los arcos de las cejas, 
+                    en las mejillas y en la parte posterior de sus patas delanteras.
+                </p>
+            </article>
+            <aside class = "four columns" style = "padding: 1%;">
+                <p class="letraContacto">
+                    Para comunicarte con nuestros representantes, solo debes llamar a 354654846558 esta
+                    sera la forma mas facil de contactarnos, ya que por cuestiones sanitarias no estamos atendiendo
+                    de forma publica
+                </p>
+            </aside>
+        </div>
+        <hr>
+        <div class = "row">
+            <div class="one-third column">
+                <div>
+                    <h3 class="preguntas">Gatito 1</h3>
+                    <img src="img/gatito1.jpg" alt="" class="img-fluid mediana" style = "width: 100%">
+                    <button class="button-primary" style = "width: 100%;">comprar</button>
+                </div>
+    
+            </div>
+            <div class="one-third column">
+                <div>
+                    <h3 class="preguntas">Gatito 2</h3>
+                    <img src="img/gatito2.jpg" alt="" class="img-fluid mediana" style = "width: 80%">
+                    <button class="button-primary" style = "width: 100%;">Comprar</button>
+                </div>
+                
+            </div>
+            <div class="one-third column">
+                <div>
+                    <h3 class="preguntas">Gatito 3</h3>
+                    <img src="img/gatito3.jpg" alt="" class="img-fluid mediana" style = "width: 100% ">
+                    <button class="button-primary" style = "width: 100%;">Comprar</button>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <h2 class="fonts-">Si quieres dejanos tu consulta</h2>
+        </div>
+        <form action="POST">
+            <div class="row">
+                <div class="one-half column">
+                    <input type="text" style = "width: 100%;" placeholder="Nombre Completo">
+                </div>
+                <div class="one-half column">
+                    <input type="email" name="email" style = "width: 100%;" placeholder="E-mail">
+                </div>
+            </div>
+            <br>
+            <div class="twelve columns">
+                <textarea style = "width: 100%;" id="mensaje" rows="3" placeholder="Escriba su consulta aqui"></textarea>
+            </div>
+            <input type="button" value="Enviar consulta" class="button-primary">
+        </form>
+        <hr>
+    </div>
+    <footer>
+        <div class="container text-center">
+            <small>Otro diseños:
+                <a href="../pagBootstrap/index.html">Bootstrap</a>
+                <a href="../pagInk/ink-3.1.10/3-boxes.html">Ink</a>
+        </small>
+        </div>
+    </footer>
 </body>
 </html>

@@ -4,7 +4,6 @@
     --color-letra: azure;
 }
 
-
 header {
     background-color: var(--color-mas-usado);
     display: flex;
@@ -45,7 +44,7 @@ p.texto{
     font-family: 'Quicksand', sans-serif;
 }
 h3.preguntas{
-    font-family: 'Lobster', cursive;
+    font-family: ;
 }
 h3.otroContacto{
     padding-left: 30%;
