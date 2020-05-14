@@ -8655,3 +8655,8 @@ body.ink-drawer.over.right .right-drawer {
   margin-right: .4em;
   text-decoration: none;
 }
+
+.letraContacto{
+  color: var(--color-letra);
+  font-family: 'DM Mono', monospace;
+}
