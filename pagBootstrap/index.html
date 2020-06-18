@@ -15,6 +15,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@500&display=swap" rel="stylesheet">
     <title>Gatitos Bootstrap</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/ajax.js"></script>
 </head>
 
  
@@ -28,7 +30,7 @@
         </div>
     </header>
     <!-- Inicio de informacion gatuna -->
-    <div class="container">
+    <div class="container" id="principal">
         <section class="main row">
             <!-- Declarando las col para cada tamanio de pantalla xs es pequemni y asi hasta el lg que 
             es large, esto hace responsive el sitio web -->
@@ -76,7 +78,7 @@
                 <div>
                     <h3 class="preguntas">Gatito 3</h3>
                     <img src="img/gatito3.jpg" alt="" class="img-fluid mediana">
-                    <button class="btn btn-outline-primary btn-block">Comprar</button>
+                    <button class="btn btn-outline-primary btn-block" id="gatito3">Comprar</button>
                 </div>
                 
             </div>
