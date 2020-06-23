@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/animations.css">
 
     <!-- Fuentes -->
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
@@ -21,7 +22,7 @@
 
  
 <body>
-    <header>
+    <header class="fadeInDown">
         <div class="container">
             <h1 class="letraHeader">Gatitos Express</h1> 
         </div>
@@ -30,8 +31,8 @@
         </div>
     </header>
     <!-- Inicio de informacion gatuna -->
-    <div class="container" id="principal">
-        <section class="main row">
+    <div class="container " id="principal">
+        <section class="main row fadeInDown" >
             <!-- Declarando las col para cada tamanio de pantalla xs es pequemni y asi hasta el lg que 
             es large, esto hace responsive el sitio web -->
             <article class="col-xs-12 col-sm-8 col-md-5 col-md-9 col-lg-9">
@@ -57,7 +58,7 @@
     <!-- Finalizacion de informacion gatuna -->
         <hr>
     <!-- Inicio de articulos en venta -->
-        <div class="row">
+        <div class="row fadeInDown">
             <div class="col-xs-12 col-sm-6 col-md-4">
                 <div>
                     <h3 class="preguntas">Gatito 1</h3>
@@ -86,10 +87,10 @@
     <!-- Finalizacion de articulos en venta -->
         <hr>
     <!-- Inicio formulario de consulta -->
-        <div>
+        <div class = "fadeInUp">
             <h2 class="extrabagante">Si quieres dejanos tu consulta</h2>
         </div>
-        <form action="POST">
+        <form class = "fadeInUp" action="POST">
             <div class="form-row">
                 <div class="col">
                     <input type="text" class="form-control" placeholder="Nombre Completo">
@@ -104,7 +105,7 @@
             <input type="button" value="Enviar consulta" class="btn btn-primary btn-block">
         </form>
         <hr>
-        <div id="carrusel" class="carousel slide" data-ride="carousel">
+        <div id="carrusel" class="carousel slide fadeInUp" data-ride="carousel">
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img src="img/graciosa1.jpg" class="d-block w-100 grande" alt="...">
@@ -119,12 +120,10 @@
           </div>
     </div>
     <!-- Finalizacion de formulario -->
-    <footer id="sticky-footer" class="py-4 bg-azure text-white-50">
-        <div class="container text-center">
-            <small>Otro diseños:
-                <a href="../pagInk/index.html">Ink</a>
-                <a href="../pagSkeleton/index.html">Skeleton</a>
-            </small>
+    <footer id="sticky-footer" class="py-4 bg-azure text-white-50 fadeInUp">
+        <div class="container">
+            <a href="#">Faqs</a>
+            <a style = "margin-left: 5%;" target="_blank" href = "https://www.esab.com.ar/ar/sp/support/upload/esab-terminos-condiciones-de-venta-v2-jul2016.pdf">Termino y condiciones</a>
         </div>
       </footer>
     <script src="js/jquery.js"></script>

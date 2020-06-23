@@ -11,4 +11,10 @@ $(document).ready(function(){
     $('#gatito1').click(function(){
         $('#principal').load('buy1.html')
     })
+    $('#comprar').click(function(){
+        $('#principal').load('successful_purchase.html')
+    })
+    $('#volverPagPrin').click(function(){
+        window.location.reload();
+    })
 });
