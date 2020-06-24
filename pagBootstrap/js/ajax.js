@@ -20,4 +20,8 @@ $(document).ready(function(){
     $('#faqs').click(function(){
         $('#principal').load('faqs.html')
     })
+
+    $('#enviarConsulta').click(function(){
+        $('#principal').load('error.html')
+    })
 });
